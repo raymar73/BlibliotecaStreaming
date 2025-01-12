@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Entidades</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .card-container {
+            margin-top: 50px;
+        }
+
+        .card {
+            transition: transform 0.3s ease-in-out;
+            border: none;
+            border-radius: 15px;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            max-height: 150px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center my-5">Biblioteca de Entidades</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 card-container">
+            <!-- Plataforma -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Plataformas</h5>
+                        <p class="card-text">Listado y gestión de las plataformas creadas en la BBDD.</p>
+                        <a href="../routes/router.php?path=platforms/list" class="btn btn-primary btn-block">Listado de
+                            plataformas</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Idiomas -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Idiomas</h5>
+                        <p class="card-text">Listado y gestión de los idiomas creados en la BBDD.</p>
+                        <a href="../routes/router.php?path=languages/list" class="btn btn-primary">Ver Idiomas</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Directores -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Directores</h5>
+                        <p class="card-text">Listado y gestión de los directores/as creados en la BBDD.</p>
+                        <a href="../routes/router.php?path=directors/list" class="btn btn-primary">Ver Directores</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Actores -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Actores</h5>
+                        <p class="card-text">Listado y gestión de los actores creados en la BBDD.</p>
+                        <a href="../routes/router.php?path=actors/list" class="btn btn-primary">Ver Actores</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Series -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Series</h5>
+                        <p class="card-text">Listado y gestión de las series creadas en la BBDD.</p>
+                        <a href="../routes/router.php?path=series/list" class="btn btn-primary">Ver Series</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

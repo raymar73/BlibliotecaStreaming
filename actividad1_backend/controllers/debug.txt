@@ -1,0 +1,140 @@
+[2025-01-10 08:25:38] POST DATA recibido para editar:
+Array
+(
+    [title] => serie test editado
+    [platform_id] => 17
+    [director_id] => 2
+    [actors] => Array
+        (
+            [0] => [1,2]
+        )
+
+    [languages_audio] => Array
+        (
+            [0] => [8,7,6]
+        )
+
+    [languages_subtitles] => Array
+        (
+            [0] => [6]
+        )
+
+)
+
+[2025-01-10 08:26:52] POST DATA recibido para editar:
+Array
+(
+    [title] => we editado
+    [platform_id] => 33
+    [director_id] => 2
+    [actors] => Array
+        (
+            [0] => [1,2]
+        )
+
+    [languages_audio] => Array
+        (
+            [0] => ["7","8","9"]
+        )
+
+    [languages_subtitles] => Array
+        (
+            [0] => ["7","6","9"]
+        )
+
+)
+
+[2025-01-11 20:03:30] POST DATA recibido:
+Array
+(
+    [title] => The orange is the new black
+    [platform_id] => 1
+    [director_id] => 2
+    [actors] => Array
+        (
+            [0] => [90]
+        )
+
+    [languages_audio] => Array
+        (
+            [0] => [1]
+        )
+
+    [languages_subtitles] => Array
+        (
+            [0] => [2]
+        )
+
+)
+
+[2025-01-11 20:03:30] Serie y relaciones guardadas correctamente.
+[2025-01-11 20:04:02] POST DATA recibido para editar:
+Array
+(
+    [title] => Dragon Ball Z
+    [platform_id] => 2
+    [director_id] => 2
+    [actors] => Array
+        (
+            [0] => [90]
+        )
+
+    [languages_audio] => Array
+        (
+            [0] => ["2"]
+        )
+
+    [languages_subtitles] => Array
+        (
+            [0] => ["2"]
+        )
+
+)
+
+[2025-01-12 00:50:12] POST DATA recibido:
+Array
+(
+    [title] => La vida es bella
+    [platform_id] => 1
+    [director_id] => 32
+    [actors] => Array
+        (
+            [0] => 
+        )
+
+    [languages_audio] => Array
+        (
+            [0] => [26]
+        )
+
+    [languages_subtitles] => Array
+        (
+            [0] => [25]
+        )
+
+)
+
+[2025-01-12 00:57:29] POST DATA recibido:
+Array
+(
+    [title] => la vida es bella
+    [platform_id] => 1
+    [director_id] => 32
+    [actors] => Array
+        (
+            [0] => [1,2]
+        )
+
+    [languages_audio] => Array
+        (
+            [0] => [25]
+        )
+
+    [languages_subtitles] => Array
+        (
+            [0] => [24]
+        )
+
+)
+
+[2025-01-12 00:57:29] Serie y relaciones guardadas correctamente.
